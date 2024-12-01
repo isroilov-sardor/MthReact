@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { https } from './axios'
 import './App.css'
 import Github from './components/Github';
+import Books from './components/Books';
 
 function App() {
   const [value, setValue] = useState('')
@@ -66,6 +67,7 @@ function App() {
         </div>
       </div>
       <Github />
+      <Books />
     </div>
   )
 }

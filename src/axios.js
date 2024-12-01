@@ -6,3 +6,6 @@ export const https = axios.create({
 export const giturl = axios.create({
     baseURL: "https://api.github.com/",
 });
+export const gogleAPI = axios.create({
+    baseURL: "https://www.googleapis.com/",
+});

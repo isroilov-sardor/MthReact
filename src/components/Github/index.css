@@ -35,7 +35,6 @@
 .gitBtn:active {
     transform: scale(0.95);
 }
-
 .cards-container {
     display: flex;
     align-items: center;

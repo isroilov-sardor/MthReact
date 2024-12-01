@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Courier New", Courier, monospace;
 }
+
 .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
+
 .same-container {
     border: none;
     display: flex;
@@ -22,6 +25,7 @@ body {
     box-shadow: 3px 3px 3px gray;
     background-color: #e4f4fd;
 }
+
 .form {
     width: 50%;
     height: 100%;
@@ -29,6 +33,7 @@ body {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
 .fr-right {
     background-color: #133041;
     width: 50%;
@@ -36,12 +41,14 @@ body {
     border: none;
     border-radius: 0px 20px 20px 50px;
 }
+
 .form h1 {
     margin-bottom: 20px;
     font-size: 30px;
     line-height: 35px;
     font-weight: 700;
 }
+
 #convertInput {
     width: 100%;
     padding: 15px;
@@ -50,6 +57,7 @@ body {
     border: none;
     font-size: 20px;
 }
+
 .formBtn {
     padding: 15px 30px;
     background-color: white;
@@ -59,22 +67,26 @@ body {
     cursor: pointer;
     transition: 0.7s all;
 }
+
 .formBtn:active {
     transform: scale(0.95);
     background-color: transparent;
 }
+
 .fr-right h1 {
     color: white;
     margin-bottom: 15px;
 }
-.card{
-  width: 80%;
-  padding: 20px;
-  background-color: #0E2431;
-  border-radius: 15px;
-  border: none;
+
+.card {
+    width: 80%;
+    padding: 20px;
+    background-color: #0E2431;
+    border-radius: 15px;
+    border: none;
 }
-.card div{
-  font-size: 30px;
-  color: white;
+
+.card div {
+    font-size: 30px;
+    color: white;
 }
